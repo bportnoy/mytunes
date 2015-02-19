@@ -1,0 +1,9 @@
+.artist, .songTitle, .enqueueButton, .libraryEntry {
+  display:inline-block;
+  margin-right: 5px;
+  clear:both;
+}
+
+.libraryRow{
+  padding:10px;
+}
