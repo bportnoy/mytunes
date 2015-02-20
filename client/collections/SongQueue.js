@@ -22,12 +22,18 @@ var SongQueue = Songs.extend({
   },
 
   playFirst: function(){
-    // this.first().play();
+    this.first().play();
     // console.log("I am playing!!!");
-    this.at(0).play();
+    // this.at(0).play();
   },
 
   playNext: function(){
+    this.shift();
+    if (this.length > 0){
+      this.playFirst();
+    } else{
+      this.trigger('stop');
+    }
 
   }
 
