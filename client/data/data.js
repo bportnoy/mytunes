@@ -19,5 +19,10 @@ var songData = [
     url: "https://s3-us-west-1.amazonaws.com/hr-mytunes/data/06+If+Your+Girl+Only+Knew.mp3",
     title: "If Your Girl Only Knew",
     artist: "Aaliyah",
+  },
+  {
+    url: "file:///Users/bradleyportnoy/store/2015-02-mytunes/client/songs/1-01%20Friday%20Fish%20Fry%20(Maribou%20State%20&%20Pedestrian%20Remix)%20(Radio%20Edit).mp3",
+    title: "Friday Fish Fry (Maribou State & Pedestrian Remix) (Radio Edit)",
+    artist: "Kelis",
   }
 ];

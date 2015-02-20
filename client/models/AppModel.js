@@ -27,8 +27,4 @@ var AppModel = Backbone.Model.extend({
     },this);
   },
 
-  nextSong: function(){
-
-  }
-
 });
