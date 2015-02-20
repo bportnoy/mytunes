@@ -14,6 +14,13 @@ var SongQueue = Songs.extend({
     }
   },
 
+  dequeue: function(song){
+    if (this.first() === song){
+      this.playNext();
+    }
+    else this.remove(song);
+  },
+
   playFirst: function(){
     // this.first().play();
     // console.log("I am playing!!!");

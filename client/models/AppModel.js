@@ -23,8 +23,6 @@ var AppModel = Backbone.Model.extend({
     }, this);
 
     params.library.on('ended',function(song){
-      console.log('ended');
-      console.log(song.get('title'));
       var queue = this.get('songQueue');
       queue.shift();
       queue.playFirst();
